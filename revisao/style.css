@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    font-family: Arial;
+}
+
+header{
+    background: #57737a;
+    height: 6rem;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+header a{
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+nav{
+    display: flex;
+    gap:5rem;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+section{
+border: 1px solid;
+height: calc(100vh - 6rem);
+
+}
+
+#listas{
+margin-top:6rem;
+}
+
+main{
+    width: 20rem;
+    margin-inline:auto;
+    background: #57737a;
+    color: azure;
+}
+fieldset > input{
+    width: 100%;
+    padding-block: 0.5rem;
+    padding-inline: 1,25rem;
+    border-radius: 0,5rem;
+    opacity:0,5 ;
+    border:1,7;
+    margin-bottom: 1rem;
+    color: azure;
+    text-align: center;
+    background: #92b3bb;
+}
+
+input::placeholder{
+    color: azure;
+}
+body{
+    background: #627d85;
+}
